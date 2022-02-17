@@ -1,0 +1,231 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+td:not([align]),
+th:not([align]) {
+  text-align: inherit;
+}
+
+html {
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: white;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  display: block;
+}
+
+code,
+pre {
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+  font-family: monospace;
+}
+
+a{
+  color: unset;
+  text-decoration: none;
+}
+
+a:visited, a:hover{
+  color: unset;
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+}   
+    
+  
+
+body{
+    background-image: url('dd.jpg');
+    background-repeat: no-repeat;
+    }
+
+/*leesoobin*/
+    #stuff {
+        position: absolute;
+        left: 900px;
+        top: 410px;
+        opacity: 0.0;
+        -webkit-transition: all 500ms ease-in-out;
+        -moz-transition: all 500ms ease-in-out;
+        -ms-transition: all 500ms ease-in-out;
+        -o-transition: all 500ms ease-in-out;
+        transition: all 500ms ease-in-out;
+    }
+    #leesoobin {
+        text-align: center;
+        width:200px;
+        height:20px;
+        position: absolute;
+        left: 400px;
+        top: 200px;
+        background-color:yellow;
+        margin-bottom:15px;
+    }
+    #leesoobin:hover + #stuff {
+        opacity: 1.0;
+    }
+
+/*leehoya*/
+    #kitty {
+        position: absolute;
+        left: 730px;
+        top: 75px;
+        opacity: 0.0;
+        opacity: 0.0;
+        -webkit-transition: all 500ms ease-in-out;
+        -moz-transition: all 500ms ease-in-out;
+        -ms-transition: all 500ms ease-in-out;
+        -o-transition: all 500ms ease-in-out;
+        transition: all 500ms ease-in-out;
+    }
+    #hoya {
+        text-align: center;
+        color: white;
+        position: absolute;
+        width: 100px;
+        height: 20px;
+        left: 300px;
+        top: 500px;
+        background-color:blue;
+        margin-bottom:15px;
+        z-index: 999;
+    }
+    #hoya:hover + #kitty {
+        opacity: 1.0;
+    }
+
+/*cake*/
+    #vegeang {
+        position: absolute;
+        right: 60px;
+        bottom: 70px;
+        opacity: 0.0;
+        opacity: 0.0;
+        background-color: white;
+        padding: 3px;
+        -webkit-transition: all 500ms ease-in-out;
+        -moz-transition: all 500ms ease-in-out;
+        -ms-transition: all 500ms ease-in-out;
+        -o-transition: all 500ms ease-in-out;
+        transition: all 500ms ease-in-out;
+    }
+    #cake {
+        text-align: center;
+        color: blue;
+        position: absolute;
+        width: 150px;
+        height: 20px;
+        right: 170px;
+        top: 90px;
+        background-color:mediumspringgreen;
+        margin-bottom:15px;
+        z-index: 999;
+    }
+    #cake:hover + #vegeang{
+        opacity: 1.0;
+        }
+
+      .impo{
+        background-color: white;
+        padding: 3px;
+        position: absolute;
+      }
+
+
+
+
+
+
+
+
