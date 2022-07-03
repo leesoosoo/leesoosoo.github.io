@@ -1,0 +1,19 @@
+body{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: left;
+    word-break: keep-all;
+    display: block;
+    color: blue;
+    margin: 10%;
+    align-items: center;
+}
+
+a{
+background: blue;
+color: white;
+border-radius: 50%;
+padding: 10px;
+text-align: center;
+}

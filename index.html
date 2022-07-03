@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>soo</title>
+<style>
+a{text-decoration: none;}
+
+    @keyframes anime_textup { 0% { top: 0; } 20% { top: -0.2rem; } 40% { top: 0 } 60% { top: 0 } 80% { top: 0 } 100% { top: 0 } }
+ 
+    .test_obj span {
+        position: relative;
+        animation: anime_textup 1.5s infinite;
+    }
+ 
+    .test_obj span:nth-of-type(1) {
+        animation-delay: .1s;
+    }
+ 
+    .test_obj span:nth-of-type(2) {
+        animation-delay: .2s;
+    }
+ 
+    .test_obj span:nth-of-type(3) {
+        animation-delay: .3s;
+    }
+ 
+    .test_obj span:nth-of-type(4) {
+        animation-delay: .4s;
+    }
+
+    .test_obj span:nth-of-type(5) {
+    	animation-delay: .5s;
+    }
+
+	.test_obj span:nth-of-type(6) {
+		animation-delay: .6s;
+	}
+
+	.test_obj span:nth-of-type(7) {
+		animation-delay: .7s;
+	}
+
+</style>
+<link rel="stylesheet" href="./style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Gothic+A1&family=IM+Fell+English:ital@0;1&family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<!-- soolook -->
+<body onload="doWave(0);">
+<script language="JavaScript">
+// soolook
+var theText = "soolook";
+
+function nextSize(i,incMethod,textLength) 
+{ 
+if (incMethod == 1) return (72*Math.abs( Math.sin(i/(textLength/3.14))) ); 
+if (incMethod == 2) return (255*Math.abs( Math.cos(i/(textLength/3.14)))); 
+}
+function sizeCycle(text,method,dis) 
+{ 
+        output = ""; 
+        for (i = 0; i < text.length; i++) 
+        { 
+                size = parseInt(nextSize(i +dis,method,text.length)); 
+                output += "<font style='font-size: "+ size +"pt'>" +text.substring(i,i+1)+ "</font>"; 
+        } 
+        theDiv.innerHTML = output; 
+}
+function doWave(n) 
+{   
+        sizeCycle(theText,1,n); 
+        if (n > theText.length) {n=0} 
+        setTimeout("doWave(" + (n+1) + ")", 100); 
+} 
+</script> 
+<div ID="theDiv" align="center">
+</div>
+
+<!-- shop -->
+<div class="test_obj">
+    <span>s</span>
+    <span>h</span>
+    <span>o</span>
+    <span>p</span>
+</div>
+<br>
+
+<!-- shop list -->
+<a href="http://aftermonday.com/m/product_list.html?xcode=033&type=Y&mcode=004#enp_mbris" target="_blank">aftermonday</a>
+
+<a href="http://m.mannigobject.com" target="_blank">mannig-object</a>
+
+<a href="https://m.ba-on.com/?cafe24_mkt=naver_cc&n_media=8753&n_query=나의나인&n_rank=2&n_ad_group=grp-a001-01-000000002512855&n_ad=nad-a001-01-000000009710727&n_keyword_id=nkw-a001-01-000002063098770&n_keyword=나의나인&n_campaign_type=1&n_ad_group_type=1&NaPm=ct%3Dktqaxk0w%7Cci%3D0A800034kinvS9DzsL2I%7Ctr%3Dsa%7Chk%3Df61a6a7415c71e4fce899420838c1e2de3bc3cd9" target="_blank">baon</a>
+
+<a href="https://chaekggalpi.com" target="_blank">chaekggalpi</a>
+
+<a href="https://m.gwilee.com" target="_blank">gwilee</a>
+
+<a href="https://m.tuziroom.com/#none" target="_blank">tuziroom</a>
+
+<a href="https://m.sheiscute.kr/" target="_blank">sheiscute</a>
+
+<a href="http://m.paintedwood.net" target="_blank">paintedwood</a>
+
+<a href="https://the-ore.kr/product/list.html?cate_no=31" target="_blank">the-ore</a>
+
+<a href="https://smartstore.naver.com/hippiedippy" target="_blank">hippiedippy</a>
+
+<a href="http://m.rainflower.kr" target="_blank">woohwa</a>
+
+<a href="http://m.la-room.kr/product/list.html?cate_no=26#none" target="_blank">la-room</a>
+
+<a href="https://www.soolook.co.kr" target="_blank">soolook</a>
+
+<a href="https://smartstore.naver.com/kako" target="_blank">kako</a>
+
+<a href="https://m.aubenine.com/#none" target="_blank">aube nine</a>
+
+<a href="https://smartstore.naver.com/joypoint" target="_blank">joypoint</a>
+
+<a href="https://m.theverlin.com" target="_blank">the-verlin</a>
+
+<a href="https://m.yurie.co.kr" target="_blank">yurie</a>
+
+<a href="https://smartstore.naver.com/indexmarket/" target="_blank">metoisono</a>
+
+<a href="https://smartstore.naver.com/acciokr" target="_blank">accio</a>
+
+<a href="https://www.inpock.co.kr/seller/2534" target="_blank">coi</a>
+
+<a href="http://m.pff.or.kr/index.html" target="_blank">pff</a>
+
+<a href="https://www.ouisolitude.com" target="_blank">oui-solitude</a>
+
+<a href="https://smartstore.naver.com/thewayu/category/b9fb2c341557422893b6791a394b8e34" target="_blank">thewayu</a>
+
+<a href="http://m.cherir.kr" target="_blank">cherir</a>
+
+<a href="http://m.bunnyburrow.kr" target="_blank">bunny-burrow</a>
+
+<a href="https://www.withyear.kr" target="_blank">with year</a>
+
+<a href="http://m.shop-breath.kr/product/all.html#none" target="_blank">breath</a>
+
+<a href="https://smartstore.naver.com/anywaysummer" target="_blank">anywaysummer</a>
+
+<a href="https://smartstore.naver.com/aubemarket27" target="_blank">aube</a>
+
+<a href="https://m.lowear.co.kr/product/detail.html?product_no=1492&cafe_mkt=gmpfbe_ct&cate_no=28&utm_source=IGShopping&utm_medium=Social" target="_blank">lowear</a>
+
+<a href="https://recto-verso.kr/shop" target="_blank">rectoverso</a>
+
+<a href="https://www.yeouunn.com/shop" target="_blank">yeouunn</a>
+
+<a href="https://m.babyrab.kr/product/list.html?cate_no=23" target="_blank">babyrab</a>
+
+<a href="http://m.noeuldal.com/#none" target="_blank">noeuldal</a>
+
+<a href="https://m.mnus.kr/product/list.html?cate_no=51#none" target="_blank">mnus</a>
+
+<a href="https://smartstore.naver.com/meaningout" target="_blank">meaning-out</a>
+
+<a href="http://m.keepintouch.kr" target="_blank">keep-in-touch</a>
+
+<a href="https://smartstore.naver.com/mucent__/r" target="_blank">arco-iris</a>
+
+<a href="http://m.omoosoohy.com/" target="_blank">omoosoohy</a>
+
+
+
+
+</body>
